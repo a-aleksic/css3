@@ -1,0 +1,68 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: rgb(228, 106, 106);
+    margin:0;
+    
+}
+.content{
+    background: rgb(243, 115, 111);
+}
+h4 {
+    
+    font-size: 6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(9, 90, 96);
+    padding: 30px;
+    margin: 20px
+}
+.mixone {
+    mix-blend-mode: soft-light;
+}
+.mixtwo{
+    mix-blend-mode:overlay;
+}
+.threed{
+    text-transform: uppercase;
+    -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
+    transform: skew(-5deg, -5deg) rotate(5deg);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    text-shadow:1px 1px rgb(20, 109, 104),
+    2px 2px rgb(20, 109, 104),
+    3px 3px rgb(20, 109, 104),
+    4px 4px rgb(20, 109, 104),
+    5px 5px rgb(20, 109, 104),
+    6px 6px rgb(20, 109, 104),
+    7px 7px rgb(3, 68, 65),
+    8px 8px rgb(3, 68, 65),
+    9px 9px rgb(3, 68, 65),
+    10px 10px 15px rgb(0,0,0,0.5);
+}
+
+.footer{
+    background: silver;    
+    margin-top: auto;
+    padding: 10px;
+    font-size: 2rem;
+    color: rgb(3, 68, 65);
+    border: 5px dashed rgb(139, 13, 13);
+    
+}
+.author{
+    
+    background: #207e89;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-text-size-adjust: none;
+    padding-left: 0.4rem;
+    text-align: center;
+}
+.author a{
+    color:seashell;
+    text-decoration: none;
+    
+}
